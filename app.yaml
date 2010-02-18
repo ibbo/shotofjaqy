@@ -1,0 +1,10 @@
+application: shotofjaqybot
+version: 0-0-1b
+runtime: python
+api_version: 1
+
+handlers:
+- url: /_wave/.*
+  script: shotofjaqy.py
+- url: /assets
+  static_dir: assets
