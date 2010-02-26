@@ -1,5 +1,5 @@
 application: shotofjaqybot
-version: 0-0-1b
+version: 0-0-1e
 runtime: python
 api_version: 1
 
@@ -8,3 +8,5 @@ handlers:
   script: shotofjaqy.py
 - url: /assets
   static_dir: assets
+- url: /update
+  script: updateRSS.py

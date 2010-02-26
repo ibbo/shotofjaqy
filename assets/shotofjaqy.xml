@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="Shot of Jaqy" height="500">
+        <Require feature="wave" />
+        <Require feature="wave-preview" />
+        <Require feature="dynamic-height" />
+    </ModulePrefs>
+    <Content type="url" href="http://shotofjaqybot.appspot.com/update" />
+</Module>
