@@ -5,5 +5,13 @@
         <Require feature="wave-preview" />
         <Require feature="dynamic-height" />
     </ModulePrefs>
-    <Content type="url" href="http://shotofjaqybot.appspot.com/update" />
+    <Content type="html">
+        <![CDATA[
+        <div id="content_div">
+            <iframe id="iframe" src="http://shotofjaqybot.appspot.com/update" frameborder="no" width="500" height="100%">
+            </iframe>
+        </div>
+        <script type="text/javascript" src="http://shotofjaqybot.appspot.com/assets/shotofjaqy.js"></script>
+        ]]>
+    </Content>
 </Module>

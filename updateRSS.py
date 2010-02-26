@@ -11,11 +11,8 @@ def getSoJFeed():
 def main():
     print "Content-Type: text/html"
     print
-    print '<script type="text/javascript" src="http://shotofjaqybot.appspot.com/assets/shotofjaqy.js"></script>'
-    print '<div id="content_div">'
     feed = getSoJFeed()
     print feed
-    print '</div>'
 
 if __name__ == "__main__":
     main()
