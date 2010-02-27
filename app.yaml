@@ -10,3 +10,7 @@ handlers:
   static_dir: assets
 - url: /update
   script: updateRSS.py
+- url: /
+  script: index.py
+- url: /index\.html
+  script: index.py
